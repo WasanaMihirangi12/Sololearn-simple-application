@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>My Landing Page</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>	
+</head>
+<body>
+
+
+
+<header>
+	<div class="container">
+		<h1>Awasome App</h1>
+		<h2>This app will change your life</h2>
+		<a class="btn">Download Now</a>
+		<div class="submenu">
+			<a href="#">Link 1</a>
+			<a href="#">Link 2</a>
+		</div>
+	</div>
+</header>
+
+
+
+<section class="features">
+<div class="container">
+	<div class="feature">
+		<img src="E:\Projects\Solo\pin.png">
+		<p> An awesome feature</p>
+	</div>
+
+    <div class="feature">
+		<img src="E:\Projects\Solo\chart.jpg">
+		<p> An awesome feature</p>
+	</div>
+
+	 <div class="feature">
+		<img src="E:\Projects\Solo\chat.jpg">
+		<p> An awesome feature</p>
+	</div>
+</section>
+
+
+<section class="quote">
+	<blockquote class="container">
+		<p>"Some great quote!"</p>
+		<cite>Satisfied Customer</cite>
+	</blockquote>
+</section>
+
+
+
+
+<footer>
+<div class="container">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">ContactUs</a></li>
+	</ul>
+	<p>&copy; All rights reserved</p>
+</div>
+</footer>
+
+
+<script>
+	$(function(){
+		$(".btn").click(function(){
+			$(".submenu").slideToggle(500);
+		});
+
+	});l
+</script>
+
+
+</body>
+</html>
